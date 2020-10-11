@@ -9,5 +9,5 @@ Enzyme.configure({
 
 test('renders learn react link', () => {
   const wrapper = shallow(<App />);
-  expect(wrapper).toBeFalsy();
+  console.log(wrapper.debug());
 });
